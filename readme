@@ -1,9 +1,9 @@
 # My AI workspace. 
-Particle Swarm Optimisation (PSO) is a population-based stochastic optimization algorithm inspired by the social behavior of bird flocks or fish schools. 
+Particle Swarm Optimisation (PSO) is a population-based stochastic optimization algorithm inspired by the social behaviour of bird flocks or fish schools. 
 It works by iteratively improving a candidate solution (represented as a "particle") by moving it through the search space based on its own past best position 
 and the best position found by the swarm. 
 # How it works: 
-Initialization: A swarm of particles is randomly initialized within the search space, each with a position (representing a potential solution) and a velocity. 
+Initialisation: A swarm of particles is randomly initialised within the search space, each with a position (representing a potential solution) and a velocity. 
 Evaluation: The objective function is evaluated for each particle, determining its fitness. 
 Personal Best (pBest): Each particle keeps track of its own best position encountered so far. 
 Global Best (gBest): The particle with the best fitness in the entire swarm is identified as the global best. 
@@ -11,7 +11,7 @@ Velocity Update: Each particle's velocity is updated based on its current veloci
 Position Update: Each particle's position is updated based on its new velocity. 
 Iteration: Steps 2-6 are repeated until a stopping criterion is met (e.g., a maximum number of iterations or a satisfactory solution is found). 
 # Key concepts:
-Particles: Represent potential solutions to the optimization problem. 
+Particles: Represent potential solutions to the optimisation problem. 
 Velocity: Determines how a particle moves through the search space. 
 pBest: The best position a particle has encountered. 
 gBest: The best position found by any particle in the swarm. 
@@ -30,6 +30,6 @@ Potential for premature convergence:
 The swarm can sometimes converge too quickly, leading to a loss of diversity and potentially missing better solutions. 
 # Applications:
 PSO has been successfully applied to a wide range of optimization problems, including: 
-Neural network training, Engineering design, Control systems, Financial modeling, and Image processing. 
+Neural network training, Engineering design, Control systems, Financial modelling, and Image processing. 
 
 
